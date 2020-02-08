@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
         padding:0;
         background-color:#EFEFEF;
         color: #1E1E1E;
+        font-family: 'Roboto', sans-serif;
     }
 
     *, *::before, *::after {

@@ -14,6 +14,13 @@ import whiteProjectsIcon from './whiteProjectsIcon.png'
 import whiteSkillsIcon from './whiteSkillsIcon.png'
 import whiteBackIcon from './whiteBackIcon.png'
 import emailSocialMediaIcon from './emailSocialMediaIcon.png'
+import firebaseIcon from './firebaseIcon.png'
+import htmlIcon from './htmlIcon.png'
+import reactIcon from './reactIcon.png'
+import styledIcon from './styledIcon.png'
+import whiteJsIcon from './whiteJsIcon.png'
+import bootstrapIco from './bootstrapIco.png'
+import cssIco from './cssIco.png'
 
 export const IMAGES = {
     avatar: avatar,
@@ -32,4 +39,11 @@ export const IMAGES = {
     whiteProjectsIcon: whiteProjectsIcon,
     whiteSkillsIcon: whiteSkillsIcon,
     whiteBackicon: whiteBackIcon,
+    firebaseIcon:firebaseIcon,
+    htmlIcon:htmlIcon,
+    reactIcon:reactIcon,
+    styledIcon:styledIcon,
+    whiteJsIcon:whiteJsIcon,
+    cssIco: cssIco,
+    bootstrapIco: bootstrapIco,
 };

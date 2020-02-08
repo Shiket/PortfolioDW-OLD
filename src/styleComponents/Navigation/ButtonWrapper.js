@@ -6,11 +6,10 @@ export const ButtonWrapper = styled.div`
     display:flex;
     align-items:center;
     position:relative;
-    height:58px;
-    width:250px;
+    height:57px;
     align-items:center;
     margin-top:20px;
-    padding-left: ${props => props.name ? '10px' : '40px'};
+    padding-left: ${props => props.name ? '21px' : '40px'};
     margin-bottom: ${props => props.marginBottom ? '100px' : '0px'};
     font-size: ${props => props.name ? '25px' : '17px'};
     font-family: ${props => props.name ? 'Rubik' : 'Roboto' };

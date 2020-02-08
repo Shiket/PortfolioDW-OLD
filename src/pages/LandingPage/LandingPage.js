@@ -51,8 +51,8 @@ export const LandingPage = () => {
 
             <AboutMe>Jestem studentem ostatniego roku na Uniwersytecie Ekonomicznym w Krakowie. <br />
                     Zajmuję się frontendem, głównie biblioteką React i z decydowanie w tym kierunku chciałbym się dalej rozwijać. <br />
-                    Moim głównym projektem w portfolio jest aplikacja "Football-app". <br />
-                    Wszystkie moje projekty (wizualnie oraz kod) tworzyłem samodzielnie.
+                    Moim głównym projektem w portfolio jest aplikacja "Football-app". <br /> <br />
+                    Wszystkie projekty (wizualnie oraz kod) tworzyłem samodzielnie.
             </AboutMe>
 
             <Line wide />

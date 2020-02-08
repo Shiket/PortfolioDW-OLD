@@ -4,6 +4,8 @@ import {
     Author, NavigationIcon, ButtonWrapper
 } from '../../styleComponents/index'
 import * as ICON from '../../assets/index'
+import * as ROUTES from '../../constants/Routes/routes'
+import { Link } from 'react-router-dom';
 
 export const Navigation = () => {
     return (
@@ -11,26 +13,25 @@ export const Navigation = () => {
             <NavigationContentWrapper>
 
                 <ButtonWrapper name marginBottom>
-                    <NavigationIcon logo src={ICON.IMAGES.whiteBackicon} alt="icon" />
                     <NavigationButton>Dominik Wrona</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper>
+                <ButtonWrapper as={Link} to={ROUTES.LANDING}>
                     <NavigationIcon src={ICON.IMAGES.whiteAccountIcon} alt="icon" />
                     <NavigationButton>About me</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper>
+                <ButtonWrapper as={Link} to={ROUTES.PROJECTS}>
                     <NavigationIcon src={ICON.IMAGES.whiteProjectsIcon} alt="icon" />
                     <NavigationButton>Projects</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper>
+                <ButtonWrapper as={Link} to={ROUTES.LANDING}>
                     <NavigationIcon src={ICON.IMAGES.whiteSkillsIcon} alt="icon" />
                     <NavigationButton>Skills</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper>
+                <ButtonWrapper as={Link} to={ROUTES.LANDING}>
                     <NavigationIcon src={ICON.IMAGES.whiteEmailIcon} alt="icon" />
                     <NavigationButton>Contact</NavigationButton>
                 </ButtonWrapper>

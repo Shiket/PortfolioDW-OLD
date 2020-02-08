@@ -8,7 +8,7 @@ export const Author = styled.p`
     position:absolute;
     color: #EFEFEF;
     font-weight:300;
-    margin-left:45px;
+    margin-left:23px;
     font-size:14px;
     bottom:0;
 `
