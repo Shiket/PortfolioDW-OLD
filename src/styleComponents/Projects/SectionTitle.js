@@ -11,6 +11,7 @@ export const SectionTitle = styled.div`
     padding-left:2%;
     margin-top:20px;
     background-color:#e04040;
+    color: #fff;
     position:relative;
 
     &::before {

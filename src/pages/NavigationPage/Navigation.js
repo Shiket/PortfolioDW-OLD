@@ -26,12 +26,12 @@ export const Navigation = () => {
                     <NavigationButton>Projects</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper as={Link} to={ROUTES.LANDING}>
+                <ButtonWrapper as={Link} to={ROUTES.SKILLS}>
                     <NavigationIcon src={ICON.IMAGES.whiteSkillsIcon} alt="icon" />
                     <NavigationButton>Skills</NavigationButton>
                 </ButtonWrapper>
 
-                <ButtonWrapper as={Link} to={ROUTES.LANDING}>
+                <ButtonWrapper as={Link} to={ROUTES.CONTACT}>
                     <NavigationIcon src={ICON.IMAGES.whiteEmailIcon} alt="icon" />
                     <NavigationButton>Contact</NavigationButton>
                 </ButtonWrapper>

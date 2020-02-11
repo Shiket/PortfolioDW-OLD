@@ -15,12 +15,17 @@ import whiteSkillsIcon from './whiteSkillsIcon.png'
 import whiteBackIcon from './whiteBackIcon.png'
 import emailSocialMediaIcon from './emailSocialMediaIcon.png'
 import firebaseIcon from './firebaseIcon.png'
-import htmlIcon from './htmlIcon.png'
-import reactIcon from './reactIcon.png'
+import htmlIcon from './html5Icon.png'
 import styledIcon from './styledIcon.png'
 import whiteJsIcon from './whiteJsIcon.png'
-import bootstrapIco from './bootstrapIco.png'
-import cssIco from './cssIco.png'
+import bootstrapIcon from './bootsrapIcon.png'
+import cssIco from './cssIcon.png'
+import project1 from './project1.png'
+import project2 from './project2.png'
+import ColorReactIcon from './reactIcon48.png'
+import whiteGithub from './whiteGithub.png'
+import xdIcon from './xdIcon.png'
+import photoshopIcon from './photoshopIcon.png'
 
 export const IMAGES = {
     avatar: avatar,
@@ -41,9 +46,14 @@ export const IMAGES = {
     whiteBackicon: whiteBackIcon,
     firebaseIcon:firebaseIcon,
     htmlIcon:htmlIcon,
-    reactIcon:reactIcon,
+    reactIcon: ColorReactIcon,
     styledIcon:styledIcon,
     whiteJsIcon:whiteJsIcon,
     cssIco: cssIco,
-    bootstrapIco: bootstrapIco,
+    bootstrapIco: bootstrapIcon,
+    project1:project1,
+    project2:project2,
+    whiteGithub: whiteGithub,
+    xdIcon: xdIcon,
+    photoshopIcon: photoshopIcon,
 };

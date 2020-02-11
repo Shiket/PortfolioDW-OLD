@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components'
-import { slideInLeft } from 'react-animations';
+import slideInRight from 'react-animations/lib/slide-in-right';
 
-const SlideIn = keyframes`${slideInLeft}`;
+const SlideIn = keyframes`${slideInRight}`;
 
 export const ProjectsWrapper = styled.div`
     min-height: 100vh;

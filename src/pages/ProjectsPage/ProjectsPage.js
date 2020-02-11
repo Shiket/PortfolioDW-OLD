@@ -2,8 +2,6 @@ import React from 'react'
 import { ProjectsWrapper, SectionTitle, RowWrapper, ProjectPicture, ColumnProjectWrapper,
          ProjectTitle, ProjectDescription, TechnologiesWrapper, TechnologyIcon, TechnologyName,
          TechnologyColumn, VisitButton, ProjectBorder } from '../../styleComponents/index'
-import firstProject from '../../assets/project1.png'
-import secondProject from '../../assets/project2.png'
 import * as ICON from '../../assets/index'
 export const ProjectsPage = () => {
     return (
@@ -12,7 +10,7 @@ export const ProjectsPage = () => {
             <ProjectBorder />
 
             <RowWrapper>
-                <ProjectPicture src={firstProject} />
+                <ProjectPicture src={ICON.IMAGES.project1} />
                 <ColumnProjectWrapper>
                     <ProjectTitle>Football app</ProjectTitle>
                     <ProjectDescription>
@@ -78,7 +76,7 @@ export const ProjectsPage = () => {
                     <VisitButton>Visit</VisitButton>
                 </ColumnProjectWrapper>
 
-                <ProjectPicture src={secondProject} />
+                <ProjectPicture src={ICON.IMAGES.project2} />
             </RowWrapper>
             <ProjectBorder />
 
