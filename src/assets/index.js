@@ -12,7 +12,6 @@ import whiteEmailIcon from './whiteEmailIcon.png'
 import whiteAccountIcon from './whiteAccountIcon.png'
 import whiteProjectsIcon from './whiteProjectsIcon.png'
 import whiteSkillsIcon from './whiteSkillsIcon.png'
-import whiteBackIcon from './whiteBackIcon.png'
 import emailSocialMediaIcon from './emailSocialMediaIcon.png'
 import firebaseIcon from './firebaseIcon.png'
 import htmlIcon from './html5Icon.png'
@@ -43,7 +42,6 @@ export const IMAGES = {
     whiteEmailIcon: whiteEmailIcon,
     whiteProjectsIcon: whiteProjectsIcon,
     whiteSkillsIcon: whiteSkillsIcon,
-    whiteBackicon: whiteBackIcon,
     firebaseIcon:firebaseIcon,
     htmlIcon:htmlIcon,
     reactIcon: ColorReactIcon,

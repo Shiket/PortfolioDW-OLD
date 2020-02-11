@@ -40,3 +40,6 @@ export { SkillName } from './Skills/SkillName'
 export { SkillsSection } from './Skills/SkillsSection'
 
 export { ContactWrapper } from './Contact/ContactWrapper'
+export { Heading } from './Contact/Heading'
+export { ContactDescription } from './Contact/ContactDescription'
+export { ContactMail } from './Contact/ContactMail'

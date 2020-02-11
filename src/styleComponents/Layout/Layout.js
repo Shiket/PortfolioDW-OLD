@@ -2,6 +2,22 @@ import React from 'react'
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e04040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #303030;
+}
     html {
         margin:0;
         padding:0;
