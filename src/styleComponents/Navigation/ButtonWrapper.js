@@ -17,7 +17,7 @@ export const ButtonWrapper = styled.div`
 
     &:after{
         position:absolute;
-        right: -33;
+        right: -33px;
         top:0;
         content: '';
         width:33px;
