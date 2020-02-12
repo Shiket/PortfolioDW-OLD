@@ -1,4 +1,4 @@
-export const LANDING = '/'
-export const PROJECTS = '/projects'
-export const SKILLS = '/skills'
-export const CONTACT = '/contact'
+export const LANDING = '/PortfolioDW/'
+export const PROJECTS = '/PortfolioDW/projects'
+export const SKILLS = '/PortfolioDW/skills'
+export const CONTACT = '/PortfolioDW/contact'
