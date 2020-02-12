@@ -16,7 +16,7 @@ export const Icons = () => (
             <IconRow isMedium>
                 <Icon src={ICONS.IMAGES.educationIcon} alt='icon' />
                 <IconText>
-                    University of Economics, Cracow (5th year) IT
+                    University of Economics (5th year) IT
                 </IconText>
             </IconRow>
         </IconColumn>

@@ -19,8 +19,6 @@ export const LandingWrapper = styled.div`
 }
 
 @media (max-width: 500px){
-    margin-left:32px;
-    padding-left:5px;
-    padding-right:5px;
+    margin-left:40px;
 }
 `

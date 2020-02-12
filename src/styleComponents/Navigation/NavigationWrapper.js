@@ -24,6 +24,6 @@ export const NavigationContentWrapper = styled.div`
 }
 
 @media (max-width: 500px){
-    max-width:32px;
+    width:45px;
 }
 `
