@@ -6,4 +6,6 @@ export const SkillsColumn = styled.div`
     justify-content:space-around;
     align-items:center;
     align-text:center;
+    width:100px;
+    margin-top:30px;
 `

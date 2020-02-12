@@ -8,6 +8,6 @@ export const SkillsSection= styled.div`
     flex-direction:column;
     animation: 0.5s ${SlideIn};
     width:100%;
-    min-height:65vh;
+    min-height:60vh;
     font-family: 'Roboto', sans-serif;
 `
