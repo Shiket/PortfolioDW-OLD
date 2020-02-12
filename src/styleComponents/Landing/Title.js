@@ -37,6 +37,7 @@ export const Title = styled.div`
   width:100%;
   display:flex;
   justify-content:center;
+  font-size:21px;
 
   &::before {
           display:none;

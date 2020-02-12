@@ -22,4 +22,8 @@ export const NavigationContentWrapper = styled.div`
     max-width:95px;
     padding-top:10px;
 }
+
+@media (max-width: 500px){
+    max-width:32px;
+}
 `

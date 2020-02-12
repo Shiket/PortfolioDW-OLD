@@ -14,6 +14,7 @@ export const Navigation = () => {
 
                 <ButtonWrapper name marginBottom>
                     <NavigationButton>Dominik Wrona</NavigationButton>
+                    <NavigationButton small>DW</NavigationButton>
                 </ButtonWrapper>
 
                 <ButtonWrapper as={Link} to={ROUTES.LANDING}>
@@ -37,7 +38,7 @@ export const Navigation = () => {
                 </ButtonWrapper>
 
             </NavigationContentWrapper>
-            <Author>® 2020 Dominik Wrona</Author>
+            <Author>®2020 Dominik Wrona</Author>
         </NavigationWrapper>
     )
 }

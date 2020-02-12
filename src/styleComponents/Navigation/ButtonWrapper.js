@@ -40,4 +40,10 @@ export const ButtonWrapper = styled.div`
         display:none;
 }
 
+@media (max-width: 500px){
+    height:70px;
+    margin-bottom: ${props => props.marginBottom ? '15px' : '0px'};
+    font-size: ${props => props.name ? '21px' : '11px'};
+}
+
 `
