@@ -4,7 +4,7 @@ import { slideInLeft } from 'react-animations';
 const SlideIn = keyframes`${slideInLeft}`;
 
 export const NavigationWrapper = styled.div`
-    height:100vh;
+    min-height:100vh;
     font-family: 'Roboto', sans-serif;
     animation: 0.3s ${SlideIn};
     position:fixed;
@@ -14,7 +14,12 @@ export const NavigationWrapper = styled.div`
 export const NavigationContentWrapper = styled.div`
     background-color: #303030;
     padding-top:40px;
-    color: #EFEFEF;
+    color: #fff;
     max-width:200px;
     height:100vh;
+
+@media (max-width: 1100px){
+    max-width:95px;
+    padding-top:10px;
+}
 `

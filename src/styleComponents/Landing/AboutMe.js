@@ -7,4 +7,8 @@ export const AboutMe = styled.p`
     width:80%;
     text-align:center;
     margin-top:34px;
+
+@media (max-width:700px){
+    width:90%;
+}
 `

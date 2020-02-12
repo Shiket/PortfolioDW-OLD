@@ -6,19 +6,19 @@ export const SocialMedia = () => (
     <SocialMediaWrapper>
         <ColumnWrapper>
             <SocialMediaIcon src={ICONS.IMAGES.fbIcon} alt='icon' />
-            <IconText>Facebook</IconText>
+            <IconText notSmall>Facebook</IconText>
         </ColumnWrapper>
         <ColumnWrapper>
             <SocialMediaIcon src={ICONS.IMAGES.emailSocialMediaIcon} alt='icon' />
-            <IconText>dwrona9@gmail.com</IconText>
+            <IconText notSmall>dwrona9@gmail.com</IconText>
         </ColumnWrapper>
         <ColumnWrapper>
             <SocialMediaIcon src={ICONS.IMAGES.githubIcon} alt='icon' />
-            <IconText>Github</IconText>
+            <IconText notSmall>Github</IconText>
         </ColumnWrapper>
         <ColumnWrapper>
             <SocialMediaIcon src={ICONS.IMAGES.linkedIcon} alt='icon' />
-            <IconText>LinkedIn</IconText>
+            <IconText notSmall>LinkedIn</IconText>
         </ColumnWrapper>
     </SocialMediaWrapper>
 )

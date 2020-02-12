@@ -6,6 +6,10 @@ export const SocialMediaWrapper = styled.div`
     margin-top:70px;
     width:600px;
     justify-content:space-between;
+    margin-bottom:20px;
+@media (max-width:700px){
+    width:80%;
+}
 `
 
 export const ColumnWrapper = styled.div`

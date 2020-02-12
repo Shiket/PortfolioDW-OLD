@@ -1,6 +1,7 @@
 import React from 'react'
-import { RowWrapper, ProjectPicture, ColumnProjectWrapper, ProjectTitle, ProjectDescription,
-     TechnologiesWrapper, TechnologyIcon, TechnologyName, TechnologyColumn, VisitButton
+import {
+    RowWrapper, ProjectPicture, ColumnProjectWrapper, ProjectTitle, ProjectDescription,
+    TechnologiesWrapper, TechnologyIcon, TechnologyName, TechnologyColumn, VisitButton
 } from '../../styleComponents/index'
 import * as ICON from '../../assets/index'
 
@@ -12,9 +13,9 @@ export const FirstProject = () => (
             <ProjectDescription>
                 Aplikacja wykorzystująca zewnętrzne API, stworzona za pomocą biblioteki React
                 umożliwiaja sprawdzenie rozegranych i nadchodzących
-                        spotkań, składów oraz zawierająca krótki opis każdego z zespołów w sześćiu czołowych ligach europy. <br />
+                spotkań, składów oraz zawierająca krótki opis każdego z zespołów w sześćiu czołowych ligach europy. <br />
                 Każdy zalogowany użytkownik może dodawać swoje ulubione zespoły do listy i mieć do nich szybki dostęp.
-                    </ProjectDescription>
+            </ProjectDescription>
             <TechnologiesWrapper>
                 <TechnologyColumn>
                     <TechnologyIcon src={ICON.IMAGES.whiteJsIcon} />

@@ -33,5 +33,19 @@ export const Title = styled.div`
         background-image: url(${afterTitle});
     }
 
+@media (max-width:700px){
+  width:100%;
+  display:flex;
+  justify-content:center;
+
+  &::before {
+          display:none;
+  }
+
+  &::after {
+        display:none
+  }
+
+}
 
 `
