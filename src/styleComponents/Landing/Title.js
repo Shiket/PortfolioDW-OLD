@@ -8,8 +8,8 @@ export const Title = styled.div`
     color: #fff;
     margin-top:30px;
     position:relative;
-    padding-left:8%;
-    padding-right:8%;
+    padding-left:10%;
+    padding-right:10%;
     display:flex;
     align-items:center;
     height:58px;

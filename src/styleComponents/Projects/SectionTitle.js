@@ -23,4 +23,13 @@ export const SectionTitle = styled.div`
         height:65px;
         background-image: url(${beforeTitle});
     }
+
+@media (max-width:500px){
+    width:60%;
+    margin-left:40%;
+
+     &::before {
+        display:none;
+    }
+}
 `

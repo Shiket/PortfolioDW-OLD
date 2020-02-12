@@ -8,10 +8,18 @@ export const ContactDescription = styled.span`
     margin-top:100px;
     margin-bottom:30px;
     text-align:center;
-    width:60%;
+    width:70%;
     justify-content:center;
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
     padding-bottom:50px;
     padding-top:50px;
+
+@media (max-width:1100px){
+    font-size:30px;
+}
+@media (max-width:500px){
+    width:90%;
+    font-size:20px;
+}
 `
