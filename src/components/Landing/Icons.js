@@ -46,7 +46,7 @@ export const Icons = () => (
                rel="noopener noreferrer"
              >
                <Icon src={ICONS.IMAGES.documentIcon} alt="icon" />
-               <IconText>CV</IconText>
+               <IconText style={{textDecoration:'underline'}}>CV</IconText>
              </IconRow>
            </IconColumn>
          </IconsWrapper>
