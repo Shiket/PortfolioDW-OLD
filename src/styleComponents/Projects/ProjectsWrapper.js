@@ -11,4 +11,13 @@ export const ProjectsWrapper = styled.div`
     margin-left:199px;
     padding-left:33px;
     color: #fff;
+
+@media (max-width: 1100px){
+    padding-left:0px;
+    margin-left:95px;
+}
+
+@media (max-width: 500px){
+    margin-left:45px;
+}
 `

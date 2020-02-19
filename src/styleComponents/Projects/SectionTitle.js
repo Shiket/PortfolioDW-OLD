@@ -25,14 +25,15 @@ export const SectionTitle = styled.div`
     }
 @media (max-width:1100px){
     height:45px;
+
     &::before{
         display:none;
     }
 }
-@media (max-width:500px){
+@media (max-width:700px){
     width:60%;
     margin-left:40%;
-    height:35px;
+    height:40px;
 
      &::before {
         display:none;

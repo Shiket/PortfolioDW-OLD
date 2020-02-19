@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    RowWrapper, ProjectPicture, ColumnProjectWrapper, ProjectTitle, ProjectDescription,
+    RowWrapper, ProjectPicture, ColumnProjectWrapper, ProjectDescription,
     TechnologiesWrapper, TechnologyIcon, TechnologyName, TechnologyColumn, VisitButton
 } from '../../styleComponents/index'
 import * as ICON from '../../assets/index'
@@ -8,11 +8,10 @@ import * as ICON from '../../assets/index'
 export const SecondProject = () => (
     <RowWrapper>
         <ColumnProjectWrapper>
-            <ProjectTitle>KP Claudia</ProjectTitle>
             <ProjectDescription>
-                Prosta strona apartamentów. <br />
-                Stworzona za pomocą HTML, CSS oraz biblioteki bootstrap.
-                    </ProjectDescription>
+                Simple apartments website. <br />
+                Created using HTML, CSS and bootstrap library.
+            </ProjectDescription>
             <TechnologiesWrapper>
                 <TechnologyColumn>
                     <TechnologyIcon src={ICON.IMAGES.htmlIcon} />
@@ -35,6 +34,6 @@ export const SecondProject = () => (
             <VisitButton>Visit</VisitButton>
         </ColumnProjectWrapper>
 
-        <ProjectPicture src={ICON.IMAGES.project2} />
+        <ProjectPicture src={ICON.IMAGES.project2} alt='project img'/>
     </RowWrapper>
 )

@@ -8,12 +8,12 @@ export const SkillsPage = () => {
         <SkillsWrapper>
             <SkillsSection>
                 <SectionTitle>Skills</SectionTitle>
-                <SkillsTitle top>TECHNOLOGIE<br /> Z KTÓRYCH KORZYSTAŁEM:</SkillsTitle>
+                <SkillsTitle top>TECHNOLOGIES<br /> I USED:</SkillsTitle>
                 <UsedSkills/>
             </SkillsSection>
 
             <UiSection>
-                <SkillsTitle>INNE:</SkillsTitle>
+                <SkillsTitle>OTHERS:</SkillsTitle>
                 <OtherSkills/>
             </UiSection>
         </SkillsWrapper>
