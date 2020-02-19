@@ -25,6 +25,7 @@ import ColorReactIcon from './reactIcon48.png'
 import whiteGithub from './whiteGithub.png'
 import xdIcon from './xdIcon.png'
 import photoshopIcon from './photoshopIcon.png'
+import documentIcon from './document.png'
 
 export const IMAGES = {
     avatar: avatar,
@@ -54,4 +55,5 @@ export const IMAGES = {
     whiteGithub: whiteGithub,
     xdIcon: xdIcon,
     photoshopIcon: photoshopIcon,
+    documentIcon:documentIcon,
 };
