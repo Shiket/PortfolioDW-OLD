@@ -10,7 +10,7 @@ export const FirstProject = () => (
            <ProjectPicture src={ICON.IMAGES.project1} />
            <ColumnProjectWrapper>
              <ProjectDescription>
-               App that uses external API, created using/with React,<br /> which
+               App that uses external API, created using react,<br /> which
                allows user to check last and upcomming matches, squads and short
                description of each team from leading european football leagues.<br />
                Any signed in user can add his favourite teams to the favourite
