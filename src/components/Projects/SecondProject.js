@@ -1,39 +1,51 @@
-import React from 'react'
+import React from "react";
 import {
-    RowWrapper, ProjectPicture, ColumnProjectWrapper, ProjectDescription,
-    TechnologiesWrapper, TechnologyIcon, TechnologyName, TechnologyColumn, VisitButton
-} from '../../styleComponents/index'
-import * as ICON from '../../assets/index'
+  RowWrapper,
+  ProjectPicture,
+  ColumnProjectWrapper,
+  ProjectDescription,
+  TechnologiesWrapper,
+  TechnologyIcon,
+  TechnologyName,
+  TechnologyColumn,
+  VisitButton
+} from "../../styleComponents/index";
+import * as ICON from "../../assets/index";
 
 export const SecondProject = () => (
-    <RowWrapper>
-        <ColumnProjectWrapper>
-            <ProjectDescription>
-                Simple apartments website. <br />
-                Created using HTML, CSS and bootstrap library.
-            </ProjectDescription>
-            <TechnologiesWrapper>
-                <TechnologyColumn>
-                    <TechnologyIcon src={ICON.IMAGES.htmlIcon} />
-                    <TechnologyName>HTML</TechnologyName>
-                </TechnologyColumn>
+  <RowWrapper>
+    <ColumnProjectWrapper>
+      <ProjectDescription>
+        Simple apartments website. <br />
+        Created using HTML, CSS and bootstrap library.
+      </ProjectDescription>
+      <TechnologiesWrapper>
+        <TechnologyColumn>
+          <TechnologyIcon src={ICON.IMAGES.htmlIcon} />
+          <TechnologyName>HTML</TechnologyName>
+        </TechnologyColumn>
 
-                <TechnologyColumn>
-                    <TechnologyIcon src={ICON.IMAGES.bootstrapIco} />
-                    <TechnologyName>Bootstrap</TechnologyName>
-                </TechnologyColumn>
-                <TechnologyColumn>
-                    <TechnologyIcon src={ICON.IMAGES.cssIco} />
-                    <TechnologyName>CSS</TechnologyName>
-                </TechnologyColumn>
-                <TechnologyColumn>
-                    <TechnologyIcon src={ICON.IMAGES.whiteJsIcon} />
-                    <TechnologyName>JavaScript</TechnologyName>
-                </TechnologyColumn>
-            </TechnologiesWrapper>
-            <VisitButton>Visit</VisitButton>
-        </ColumnProjectWrapper>
+        <TechnologyColumn>
+          <TechnologyIcon src={ICON.IMAGES.bootstrapIco} />
+          <TechnologyName>Bootstrap</TechnologyName>
+        </TechnologyColumn>
+        <TechnologyColumn>
+          <TechnologyIcon src={ICON.IMAGES.cssIco} />
+          <TechnologyName>CSS</TechnologyName>
+        </TechnologyColumn>
+        <TechnologyColumn>
+          <TechnologyIcon src={ICON.IMAGES.whiteJsIcon} />
+          <TechnologyName>JavaScript</TechnologyName>
+        </TechnologyColumn>
+      </TechnologiesWrapper>
+      <VisitButton
+        target="_blank"
+        href="https://nocleg-wieliczka.com"
+        rel="noopener noreferrer">
+        Visit
+      </VisitButton>
+    </ColumnProjectWrapper>
 
-        <ProjectPicture src={ICON.IMAGES.project2} alt='project img'/>
-    </RowWrapper>
-)
+    <ProjectPicture src={ICON.IMAGES.project2} alt="project img" />
+  </RowWrapper>
+);

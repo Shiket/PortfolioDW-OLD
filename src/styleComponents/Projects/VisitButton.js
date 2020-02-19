@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const VisitButton = styled.div`
+export const VisitButton = styled.a`
     font-size:20px;
     background-color: #e04040;
     padding: 5px 3px;

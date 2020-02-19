@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const IconText = styled.span`
+export const IconText = styled.a`
     color: #1E1E1E;
     font-size:14px;
 

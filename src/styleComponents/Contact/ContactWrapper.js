@@ -1,13 +1,12 @@
 import styled, { keyframes } from 'styled-components'
-import { slideInUp } from 'react-animations';
+import slideInLeft from "react-animations/lib/slide-in-left";
 
-const SlideIn = keyframes`${slideInUp}`;
-
+const SlideIn = keyframes`${slideInLeft}`;
 export const ContactWrapper = styled.div`
     width:100%;
     min-height:100vh;
     background-color: #1E1E1E;
-    animation: 0.5s ${SlideIn};
+    animation: 0.7s ${SlideIn};
     padding-left:231px;
     display:flex;
     flex-direction:column;

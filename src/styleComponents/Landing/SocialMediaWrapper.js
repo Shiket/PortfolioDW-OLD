@@ -12,7 +12,7 @@ export const SocialMediaWrapper = styled.div`
 }
 `
 
-export const ColumnWrapper = styled.div`
+export const ColumnWrapper = styled.a`
     display:flex;
     flex-direction:column;
     align-items:center;

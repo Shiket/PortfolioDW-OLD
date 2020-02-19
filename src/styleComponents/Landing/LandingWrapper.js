@@ -7,7 +7,7 @@ export const LandingWrapper = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
-    animation: 0.5s ${SlideIn};
+    animation: 0.7s ${SlideIn};
     width:100%;
     min-height:100vh;
     font-family: 'Roboto', sans-serif;
